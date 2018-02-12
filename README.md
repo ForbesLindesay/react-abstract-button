@@ -1,5 +1,7 @@
 # react-abstract-button
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ForbesLindesay/react-abstract-button.svg)](https://greenkeeper.io/)
+
 An abstract (unstyled) button element that dynamicly switches between a `<button>`, an `<a>` and a `<Link>` from [react-router](https://reacttraining.com/react-router/web/guides/philosophy). The idea is to make it easier for you to have a consistent style for all the "clickable" things on your web app. Whether something is a link or a button is mostly an implementation detail, so this component lets you use a single styled-components style to style all of them, and then if you provide a `to` property it will render using a link element, and if you don't it renders as a button.
 
 ## Installation
