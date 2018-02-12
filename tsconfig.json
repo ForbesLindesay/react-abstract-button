@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "lib",
+    "strict": true,
+    "lib": ["es2017", "dom"],
+    "jsx": "react"
+  }
+}
